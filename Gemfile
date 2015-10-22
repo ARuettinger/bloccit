@@ -14,7 +14,7 @@ group :development do
 	gem 'pry-rails'
 end
 
-group :development do
+group :development, :test do
 	gem 'rspec-rails', '~> 3.0'
 	gem 'shoulda'
 end
