@@ -1,0 +1,15 @@
+0 => "member"
+1 => "admin"
+
+enum :volume, [:soft, :medium, :loud, :eleven]
+
+stereo.volume = :soft
+stereo.volume = 0
+
+
+case volume
+when 0
+	"soft"
+when 1
+	"medium"
+...
